@@ -1,0 +1,22 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulelivebox" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulelivebox" scope="public">
+    <example>Sarah redemarre livebox</example>
+	<example>Sarah allume le wifi</example>
+	<example>Sarah eteint le wifi</example>
+    <tag>out.action=new Object(); </tag>
+	
+    <item>Sarah</item>    
+	<one-of>
+		<item>redemarre<tag>out.action.operation = 'Reconnexion'</tag></item>
+		<item>allume le wifi<tag>out.action.operation = 'Wifi-Enable'</tag></item>
+		<item>eteint le wifi<tag>out.action.operation = 'Wifi-Disable'</tag></item>
+    </one-of>
+	<one-of>
+		<item>livebox</item>
+		<item>la livebox</item>
+		<item>de la livebox</item>
+    </one-of> 	
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/LiveboxPlay";</tag>
+	
+  </rule> 
+</grammar>

@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "LiveboxPlay": {
+      "description": "Plugin de commande de la liveBox Play",
+      "version": "1.0",
+	  "auteur": "Sailman"
+	  }
+  }
+}

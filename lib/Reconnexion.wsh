@@ -1,0 +1,5 @@
+[ScriptFile]
+Path=C:\SARAH\plugins\LiveboxPlay\lib\Reconnexion.vbs
+[Options]
+Timeout=0
+DisplayLogo=0
