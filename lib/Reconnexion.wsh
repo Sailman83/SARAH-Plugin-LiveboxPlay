@@ -1,5 +1,5 @@
 [ScriptFile]
-Path=C:\Users\Thomas\Documents\GitHub\SARAH-Plugin-LiveboxPlay\lib\Reconnexion.vbs
+Path=C:\SARAH\plugins\LiveboxPlay\lib\Reconnexion.vbs
 [Options]
-Timeout=1
-DisplayLogo=1
+Timeout=0
+DisplayLogo=0
