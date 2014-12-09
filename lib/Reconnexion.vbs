@@ -19,7 +19,7 @@ nav.Visible = false
 nav.navigate "192.168.1.1"
 call Wait_IE(nav)
 nav.document.getelementbyID("PopupUsername").Value = "admin"
-nav.document.getelementbyID("PopupPassword").Value = "admin25"
+nav.document.getelementbyID("PopupPassword").Value = "admin"
 nav.document.getelementbyID("bt_authenticate").click
 call Wait_IE(nav)
 end sub

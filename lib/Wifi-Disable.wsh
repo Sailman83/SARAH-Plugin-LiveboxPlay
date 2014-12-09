@@ -1,5 +1,5 @@
 [ScriptFile]
-Path=C:\SARAH\plugins\LiveboxPlay\lib\Wifi-Disable.vbs
+Path=C:\Users\Thomas\Documents\GitHub\SARAH-Plugin-LiveboxPlay\lib\Wifi-Disable.vbs
 [Options]
-Timeout=0
-DisplayLogo=0
+Timeout=1
+DisplayLogo=1
